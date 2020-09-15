@@ -1,0 +1,91 @@
+body {
+  background-image: url("picnic.jpg");
+  text-align: center;
+  font-family: "Gotu", sans-serif;
+  background-size: cover;
+}
+
+li {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 30px;
+  list-style-type: none;
+}
+
+h1 {
+  background-color: rgba(110, 21, 21, 0.973);
+  opacity: 80%;
+  color: white;
+  padding: 10px;
+  text-shadow: 3px 4px black;
+  font-size: 38pt;
+}
+h2 {
+  text-decoration: underline;
+}
+
+.burgerDiv-1 {
+  margin-top: 10px;
+  background-image: url("one.png");
+  padding-top: 20px;
+  border-radius: 30px;
+  color: white;
+}
+
+.burgerDiv-2 {
+  margin-top: 50px;
+  background-image: url("one.png");
+  padding-top: 20px;
+  border-radius: 30px;
+  color: white;
+}
+
+/*====*/
+
+.rotate_right {
+  -ms-transform: rotate(7deg); /* IE 9 */
+  -webkit-transform: rotate(7deg); /* Safari */
+  transform: rotate(7deg);
+}
+
+.rotate_left {
+  -ms-transform: rotate(-15deg); /* IE 9 */
+  -webkit-transform: rotate(-15deg); /* Safari */
+  transform: rotate(-15deg);
+}
+/*====*/
+
+.label {
+  font-weight: bold;
+}
+
+.formDiv {
+  background-color: transparent;
+  color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+img {
+  height: 150px;
+  padding: 10px;
+}
+
+.container {
+  background-color: transparent;
+}
+
+.change-devoured {
+  border-radius: 20px;
+  background-color: greenyellow;
+  border: 3px outset greenyellow;
+}
+
+button {
+  border-radius: 20px;
+}
+
+.delete-burger {
+  background-color: red;
+  border: 3px outset red;
+}
