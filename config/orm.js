@@ -1,7 +1,7 @@
 // Here is the O.R.M. where you write functions that takes inputs and conditions
 // and turns them into database commands like SQL.
 
-var connection = require("./connection.js");
+var connection = require("./connection");
 
 // Helper function for SQL syntax.
 // Let's say we want to pass 3 values into the mySQL query.
